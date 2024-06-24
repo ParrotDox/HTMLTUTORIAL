@@ -3,3 +3,127 @@
     margin: 0px;
     padding: 0px;
 } */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+    font: normal 16px "Roboto", sans-serif;
+}
+a{
+    color: #0f141e;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color:brown;
+}
+a:visited{
+    color:gray;
+}
+.container{
+    max-width: 100%;
+    margin: 2% 10%;
+}
+.card{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card__avatar{
+    width:auto;
+    max-height:256px;
+    background-color: rgb(35, 35, 35);
+    border-radius: 28px;
+    box-shadow: 3px 3px 14px 0px rgb(53, 53, 53,0.5);
+}
+.info{
+    display: flex;
+}
+.card__info{
+    margin-left:40px;
+}
+.table{
+    width:100%;
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color:#86898f
+}
+.table tr:nth-child(1){
+    background-color: #e3e3e38b;
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table th{
+    text-align: left;
+}
+.contact{
+
+}
+.contact h2{
+    text-align: center;
+}
+.form__group{
+    
+}
+.form__group label{
+    display: block;
+}
+.form__group input,
+.form__group textarea{
+    width:100%;
+    padding: 5px 0px 5px;
+    margin-bottom: 5px;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    font-family: inherit;
+}
+.row{
+    display:flex;
+}
+.row > .form__group{
+    width:50%;
+}
+.row > .form__group:first-child{
+    margin-right: 20px;
+}
+
+.bg-yellow{
+    background: #fff9dc;
+}
+.bg-green{
+    background: #e5ffe7;
+}
+.bg-red{
+    background: #ffe5e5;
+}
+.card__list{
+    padding: 0 20px;
+}
+.card__list li{
+    color:#86898f;
+    margin-bottom: 10px;
+}
+.card__YTlist li{
+    margin-bottom:10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+input[type="submit"]{
+    background-color: #0f141e;
+    border:none;
+    width:100px;
+    height: 50px;
+    color:white;
+    font-family: inherit;
+    font-size: 1em;
+    transition: all ease 0.5s;
+}
+input[type="submit"]:hover{
+    background-color: #303134;
+    font-size:20px;
+}
